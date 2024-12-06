@@ -1,0 +1,440 @@
+.overall-bg-container{
+    font-family: "Roboto";
+}
+
+.nav-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.company-logo-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.company-img{
+    width: 100px;
+    height: 100px;
+    margin-right: 15px;
+}
+
+.company-name{
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.heading-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 100px;
+}
+
+.vertical {
+    border-left: 4px solid red;
+    height: 50px;
+    margin-right: 15px;
+}
+
+.nav-item-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.appointment-btn{
+    background-color: #0726a3;
+    color:white;
+    padding: 13px;
+    border-radius: 20px; 
+    font-weight: bold;
+    font-size: 13px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.nav-item{
+    margin: 40px;
+    font-size: 20px;
+}
+
+.bar-icon{
+    font-size: 30px;
+    margin-left: 60px;
+}
+
+.company-description{
+    text-align: center;
+}
+
+.appointment-container{
+    background-image: url("https://spaciotechtonics.my.canva.site/spacio-techtonics-consultancy-v2/media/d62bb067f171588cbd3da0c76ff1d7d3.png");
+    background-size: cover;
+    height: 800px;
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.appointment-card-container{
+    margin-left: 100px;
+}
+
+.appointment-heading{ 
+    font-size: 40px;
+    width: 500px;
+    font-weight: 400;
+}
+
+.appointment-btn-ele{
+    background-color: #0726a3;
+    color:white;
+    padding: 20px;
+    border-radius: 30px; 
+    font-weight: bold;
+    border-width: 0px;
+    font-size: 17px;
+    width: 300px;
+}
+
+.expertise-container{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.expertise-heading-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.expertise-heading-vertical {
+    border-left: 4px solid red;
+    height: 100px;
+    margin-right: 15px;
+}
+
+.expertise-heading{
+    font-weight: 400; 
+    font-style: normal; 
+    color: rgb(0, 0, 0); 
+    font-kerning: none; 
+    text-decoration: none;
+    font-size: 56px;
+}
+
+.more-on-expertise-heading-container{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 15px;
+    width: 200px;
+    border-radius: 30px;
+    margin-top: 210px;
+    margin-left: 100px;
+}
+
+.more-on-expertise-heading{
+    font-size: 18px;
+}
+
+.expertise-description-container{
+    padding-top: 100px ;
+    margin: 10px;
+}
+
+.expertise-description{
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    font-kerning: none;
+    width: 518px;
+}
+
+.expertise-description-last{
+    font-weight: 700;
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+.style-ele{
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+    font-kerning: none;
+}
+
+.facades-container{
+    background-image: url("https://spaciotechtonics.my.canva.site/spacio-techtonics-consultancy-v2/media/668bbb70aa625db7837e464599d27408.png");
+    background-size: cover;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.facades-heading{
+    font-weight:500 ;
+    text-align: center;
+    font-size: 60px;
+    font-style: italic;
+    color:rgb(255, 255, 255); 
+    font-kerning: none; 
+    text-decoration: none;
+}
+
+.presence-container{
+    height: 800px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.presence-details-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 100px;
+}
+
+
+.presence-heading{
+    font-size: 50px;
+}
+
+.presence-description{
+    font-size: 20px;
+}
+
+.state-city-name{
+    font-size: 20px;
+}
+
+.nation-details-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 30px;
+}
+
+
+.nation-detail-container{
+    text-align: center;
+}
+
+.number{
+    font-size: 50px;
+}
+
+.nation-img{
+    height: 800px;
+}
+
+.latest-work-container{
+    padding: 20px;
+}
+
+.latest-work-heading-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.latest-work-heading{
+    font-weight: 450;
+}
+
+.latest-work-img-container{
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+}
+
+.latest-work-img-1-container{
+    width:50%;
+    margin-right: 10px;
+}
+
+.latest-work-img-2-container{
+    width: 50%;
+    margin-left: 10px;
+}
+
+.latest-work-img-1{
+    height: 500px;
+    width: 60%;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+
+.latest-work-img-2{
+    height: 500px;
+    width: 40%;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+
+.insights-container{
+    padding: 20px;
+}
+
+.insights-cards-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.insights-heading{
+    font-size: 50px;
+}
+
+.insights-card-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-right: 20px;
+}
+
+.insights-linkedin-box{
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    border-bottom-right-radius: 30px;
+}
+
+.linkedin-icon{
+    width: 70px;
+    height: 70px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.insights-description{
+    width: 250px;
+    font-size: 20px;
+}
+
+.date{
+    align-self: flex-end;
+}
+
+.innovate-container{
+    background-image: url("https://spaciotechtonics.my.canva.site/spacio-techtonics-consultancy-v2/media/821773734067879fddea9c114e4258d1.jpg");
+    height: 800px;
+    background-size: cover;
+    color: white;
+}
+
+.innovate-contact-info-container{
+    margin-left: 100px;
+}
+
+.innovate-heading{
+    font-size: 80px;
+    font-weight: 450;
+}
+
+.innovate-contact-info{
+    font-size: 20px;
+}
+
+.career-ele{
+    margin-top: 50px;
+}
+
+.social-media-bg-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social-media-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 100px;
+    padding-top: 130px;
+}
+
+.social-media-heading{
+    font-size: 20px;
+}
+
+.media-icons-container{
+    margin-left: 20px;
+}
+
+.social-media-icon{
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+.social-media-signup-heading{
+    font-size: 40px;
+}
+
+.social-media-description{
+    font-size: 20px;
+}
+
+.email-signup-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 100px;
+}
+
+.email{
+    background-color: transparent;
+    border-radius: 8px;
+    padding: 10px;
+    border:1px solid white;
+    width: 300px;
+    margin-right: 10px;
+    color: gray;
+}
+
+.signup-btn{
+    padding: 15px;
+    color:black;
+    border-radius: 20px;
+    border-width: 0px;
+    font-weight: bold;
+    font-size: 15px;
+    width: 145px;
+}
+
+.footer-container{
+    background:rgb(0, 0, 1);
+    color: white;
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.call-us-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.phone-icon{
+    font-size: 30px;
+    margin-left: 15px;
+}
